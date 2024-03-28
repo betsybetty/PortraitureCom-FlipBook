@@ -99,60 +99,14 @@ input {
     left: 1rem;
 }
 #p1{
-    z-index: 18;
-}
-#p2{
-    z-index: 17;
-}
-#p3{
-    z-index: 16;
-}
-#p4{
-    z-index: 15;
-}
-#p5{
-    z-index: 14;
-}
-#p6{
-    z-index: 13;
-}
-#p7{
-    z-index: 12;
-}
-#p8{
-    z-index: 11;
-}
-#p9{
-    z-index: 10;
-}
-#p10{
-    z-index: 9;
-}
-#p11{
-    z-index: 8;
-}
-#p12{
-    z-index: 7;
-}
-#p13{
-    z-index: 6;
-}
-#p14{
-    z-index: 5;
-}
-#p15{
-    z-index: 4;
-}
-#p16{
     z-index: 3;
 }
-#p17{
+#p2{
     z-index: 2;
 }
-#p18{
+#p3{
     z-index: 1;
 }
-
 
 #checkbox-cover:checked ~ .book {
     transform: translateX(200px);
@@ -179,64 +133,4 @@ input {
 #checkbox-p3:checked ~ .book #p3{
     transform: rotateY(-180deg);
     z-index: 4;
-}
-#checkbox-p4:checked ~ .book #p4{
-    transform: rotateY(-180deg);
-    z-index: 5;
-}
-#checkbox-p5:checked ~ .book #p5{
-    transform: rotateY(-180deg);
-    z-index: 6;
-}
-#checkbox-p6:checked ~ .book #p6{
-    transform: rotateY(-180deg);
-    z-index: 7;
-}
-#checkbox-p7:checked ~ .book #p7{
-    transform: rotateY(-180deg);
-    z-index: 8;
-}
-#checkbox-p8:checked ~ .book #p8{
-    transform: rotateY(-180deg);
-    z-index: 9;
-}
-#checkbox-p9:checked ~ .book #p9{
-    transform: rotateY(-180deg);
-    z-index: 10;
-}
-#checkbox-p10:checked ~ .book #p10{
-    transform: rotateY(-180deg);
-    z-index: 11;
-}
-#checkbox-p11:checked ~ .book #p11{
-    transform: rotateY(-180deg);
-    z-index: 12;
-}
-#checkbox-p12:checked ~ .book #p12{
-    transform: rotateY(-180deg);
-    z-index: 13;
-}
-#checkbox-p13:checked ~ .book #p13{
-    transform: rotateY(-180deg);
-    z-index: 14;
-}
-#checkbox-p14:checked ~ .book #p14{
-    transform: rotateY(-180deg);
-    z-index: 15;
-}
-#checkbox-p15:checked ~ .book #p15{
-    transform: rotateY(-180deg);
-    z-index: 16;
-}
-#checkbox-p16:checked ~ .book #p16{
-    transform: rotateY(-180deg);
-    z-index: 17;
-}
-#checkbox-p17:checked ~ .book #p17{
-    transform: rotateY(-180deg);
-    z-index: 18;
-}
-#checkbox-p18:checked ~ .book #p18{
-    transform: rotateY(-180deg);
-    z-index: 19;
 }
