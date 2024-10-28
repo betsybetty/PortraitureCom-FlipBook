@@ -99,41 +99,45 @@ input {
     left: 1rem;
 }
 #p1{
-    z-index: 12;
+    z-index: 13;
 }
 #p2{
-    z-index: 11;
+    z-index: 12;
 }
 #p3{
-    z-index: 10;
+    z-index: 11;
 }
 #p4{
-    z-index: 9;
+    z-index: 10;
 }
 #p5{
-    z-index: 8;
+    z-index: 9;
 }
 #p6{
-    z-index: 7;
+    z-index: 8;
 }
 #p7{
-    z-index: 6;
+    z-index: 7;
 }
 #p8{
-    z-index: 5;
+    z-index: 6;
 }
 #p9{
-    z-index: 4;
+    z-index: 5;
 }
 #p10{
+    z-index: 4;
+}
+#p11{
     z-index: 3;
 }
-#p11{
+#p12{
     z-index: 2;
 }
-#p11{
+#p13{
     z-index: 1;
 }
+
 
 #checkbox-cover:checked ~ .book {
     transform: translateX(200px);
@@ -196,4 +200,8 @@ input {
 #checkbox-p12:checked ~ .book #p12{
     transform: rotateY(-180deg);
     z-index: 13;
+}
+#checkbox-p13:checked ~ .book #p13{
+    transform: rotateY(-180deg);
+    z-index: 14;
 }
